@@ -131,8 +131,7 @@ class HomeScreen extends StatelessWidget {
                         width: 50,
                         child: ElevatedButton(
                           style: ElevatedButton.styleFrom(
-                            shape: StadiumBorder(),
-                            onPrimary: Colors.white,
+                            foregroundColor: Colors.white, shape: StadiumBorder(),
                           ),
                           child: Image.asset('assets/images/gmail.png'),
                           onPressed: () async {
@@ -155,8 +154,7 @@ class HomeScreen extends StatelessWidget {
                         width: w,
                         child: ElevatedButton(
                           style: ElevatedButton.styleFrom(
-                            shape: StadiumBorder(),
-                            onPrimary: Colors.white,
+                            foregroundColor: Colors.white, shape: StadiumBorder(),
                           ),
                           child: Image.asset('assets/images/instagram.png'),
                           onPressed: () async {
@@ -177,8 +175,7 @@ class HomeScreen extends StatelessWidget {
                         width: w,
                         child: ElevatedButton(
                           style: ElevatedButton.styleFrom(
-                            shape: StadiumBorder(),
-                            onPrimary: Colors.white,
+                            foregroundColor: Colors.white, shape: StadiumBorder(),
                           ),
                           child: Image.asset('assets/images/telegram.png'),
                           onPressed: () async {
@@ -199,8 +196,7 @@ class HomeScreen extends StatelessWidget {
                         width: w,
                         child: ElevatedButton(
                           style: ElevatedButton.styleFrom(
-                            shape: StadiumBorder(),
-                            onPrimary: Colors.white,
+                            foregroundColor: Colors.white, shape: StadiumBorder(),
                           ),
                           child: Image.asset('assets/images/whatsapp.png'),
                           onPressed: () async {
@@ -333,7 +329,7 @@ class _HomeTop extends State<HomeTop> {
                   height: height! / 16,
                 ),
                 Text(
-                  'Where Would  \n you want to go',
+                  'Choose Your Destination',
                   style: TextStyle(
                     fontSize: 24.0,
                     color: Colors.white,
